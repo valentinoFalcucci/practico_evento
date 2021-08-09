@@ -10,3 +10,9 @@ Arrancar el proyecto
 4.	Levantar el proyecto con el siguiente comando : npm start
 
 Buscar en la carpeta documentacion que se encuentran todos los endpoints del proyecto explicados correctamente
+
+Lo resolvi de la siguiente manera: Un evento tiene varias fechas . Y una fecha corresponde a un evento determinado 
+Por lo tanto yo puedo seleccionar una fecha y saber que evento se lleva a cabo y a su vez seleccionar un evento
+y saber que fechas tiene relacionado.
+Por lo que en la clase Fecha hice un atributo de tipo Object relacionado al Evento , y en la clase Evento un atributo
+de tipo Object vinculado a la clase Fecha
